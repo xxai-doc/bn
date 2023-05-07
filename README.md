@@ -7,3 +7,4 @@
 * [ফ্রন্ট-এন্ড কোড](https://github.com/xxai-art/web)
 * [সমগ্র সাইটের জন্য ভাষা প্যাক](https://github.com/xxai-art/web/tree/main/i18n)
 * [লগইন মডিউলগুলির জন্য ভাষা প্যাক](https://github.com/wacpkg/user/tree/main/ui.i18n)
+* [ওয়েবসাইট বহুভাষিক ডকুমেন্টেশন](https://github.com/xxai-doc)
