@@ -1,10 +1,10 @@
 <p align="center"><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/logo.svg"/></a><br/><a href="https://xxai.art"><img src="https://cdn.jsdelivr.net/gh/xxai-art/doc/xxai.svg"/></a></p><p align="center"><a href="https://github.com/xxai-art/doc#readme"><img alt="I18N" src="https://cdn.jsdelivr.net/gh/wactax/img/t.svg"/></a>　<a href="https://groups.google.com/u/0/g/xxai-art"><img alt="Google Groups" src="https://cdn.jsdelivr.net/gh/wactax/img/g-groups.svg"/></a></p>
 
-# xxAI.art
+প্রথমে nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) ইনস্টল করার পরামর্শ দেওয়া হয় এবং তারপর ডিরেক্টরিতে প্রবেশ করার পরে `direnv allow` ( ডিরেক্টরিতে প্রবেশ করার পরে [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) স্বয়ংক্রিয়ভাবে কার্যকর হবে)।
 
-ওয়েবসাইট কোডের অংশ ওপেন সোর্স, অনুবাদ অপ্টিমাইজ করতে সাহায্য করার জন্য স্বাগতম।
+অর্থ হল: চীনা অনুবাদ জাপানি, কোরিয়ান, ইংরেজি, অন্যান্য সমস্ত ভাষায় ইংরেজি অনুবাদ। আপনি যদি শুধুমাত্র চীনা এবং ইংরেজি সমর্থন করতে চান, আপনি শুধু `zh: en` লিখতে পারেন।
 
-## ফ্রন্ট-এন্ড কোড
+অর্থ হল: চীনা অনুবাদ জাপানি, কোরিয়ান, ইংরেজি, অন্যান্য সমস্ত ভাষায় ইংরেজি অনুবাদ। আপনি যদি শুধুমাত্র চীনা এবং ইংরেজি সমর্থন করতে চান, আপনি শুধু `zh: en` লিখতে পারেন।
 
 * [ফ্রন্ট-এন্ড কোড](https://github.com/xxai-art/web)
 * [সমগ্র সাইটের জন্য ভাষা প্যাক](https://github.com/xxai-art/web/tree/main/i18n)
@@ -31,15 +31,15 @@
 
 ### নথি অনুবাদ অটোমেশন নির্দেশাবলী
 
-রিপোজিটরি [xxai-art/doc](https://github.com/xxai-art/doc) দেখুন
+কোড রিপোজিটরি [xxai-art/doc](https://github.com/xxai-art/doc) দেখুন
 
-প্রথমে nodejs, [direnv](https://direnv.net) এবং [bun](https://github.com/oven-sh/bun) ইনস্টল করার পরামর্শ দেওয়া হয় এবং তারপর ডিরেক্টরিতে প্রবেশ করার পরে `direnv allow` চালান।
+প্রথমে nodejs, [direnv](https://direnv.net) , [bun](https://github.com/oven-sh/bun) ইনস্টল করার পরামর্শ দেওয়া হয় এবং তারপর ডিরেক্টরিতে প্রবেশ করার পরে `direnv allow` ( ডিরেক্টরিতে প্রবেশ করার পরে [.envrc](https://github.com/xxai-art/doc/blob/main/.envrc) স্বয়ংক্রিয়ভাবে কার্যকর হবে)।
 
-শত শত ভাষায় অনূদিত অত্যধিক বড় গুদামগুলি এড়াতে, আমি প্রতিটি ভাষার জন্য একটি পৃথক কোড গুদাম তৈরি করেছি এবং এই গুদামটি সংরক্ষণ করার জন্য একটি সংস্থা তৈরি করেছি
+শত শত ভাষায় অনুবাদ করা বড় কোড বেস এড়ানোর জন্য, আমি প্রতিটি ভাষার জন্য একটি আলাদা কোড বেস তৈরি করেছি এবং কোড বেস সংরক্ষণ করার জন্য একটি সংস্থা তৈরি করেছি
 
-পরিবেশ পরিবর্তনশীল `GITHUB_ACCESS_TOKEN` সেট করা এবং তারপর [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) চালানো স্বয়ংক্রিয়ভাবে গুদাম তৈরি করবে।
+পরিবেশ পরিবর্তনশীল `GITHUB_ACCESS_TOKEN` সেট করা এবং তারপর [create.github.coffee](https://github.com/xxai-art/doc/blob/main/create.github.coffee) চালানো স্বয়ংক্রিয়ভাবে কোড সংগ্রহস্থল তৈরি করবে।
 
-অবশ্যই, আপনি এটি একটি গুদামেও রাখতে পারেন।
+অবশ্যই, আপনি এটি একটি কোড বেসেও রাখতে পারেন।
 
 অনুবাদ স্ক্রিপ্ট রেফারেন্স [run.sh](https://github.com/xxai-art/doc/blob/main/run.sh)
 
@@ -71,4 +71,8 @@ Google API বিনামূল্যে অনুবাদের জন্য 
 export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
 ```
 
-অনুবাদ স্ক্রিপ্টটি `.i18n` ডিরেক্টরিতে একটি অনুবাদ ক্যাশে তৈরি করবে, অনুগ্রহ করে এটিকে `git status` দিয়ে পরীক্ষা করুন এবং বারবার অনুবাদ এড়াতে কোড সংগ্রহস্থলে যোগ করুন।
+অনুবাদ স্ক্রিপ্টটি `.i18n` ডিরেক্টরিতে একটি অনুবাদিত ক্যাশে তৈরি করবে, অনুগ্রহ করে এটিকে `git status` দিয়ে পরীক্ষা করুন এবং বারবার অনুবাদ এড়াতে কোড সংগ্রহস্থলে যোগ করুন।
+
+ক্যাশে আপডেট করার জন্য প্রতিবার অনুবাদ পরিবর্তন করার সময় অনুগ্রহ করে `bunx i18n` চালান।
+
+যদি মূল পাঠ্য এবং অনুবাদ একই সময়ে সংশোধন করা হয়, ক্যাশে বিভ্রান্ত হবে, তাই আপনি যদি পরিবর্তন করতে চান, আপনি শুধুমাত্র একটি পরিবর্তন করতে পারেন, এবং তারপর ক্যাশে আপডেট করতে `bunx i18n` চালান।
