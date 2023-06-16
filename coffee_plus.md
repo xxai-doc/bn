@@ -2,13 +2,13 @@
 
 [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , কফিস্ক্রিপ্ট সিনট্যাক্সের ভিত্তিতে কিছু বৈশিষ্ট্য যোগ করুন, দেখুন [coffee_plus](./coffee_plus.md) ।
 
-* পরিবর্তনশীল ঘোষণা করুন
+## পরিবর্তনশীল ঘোষণা করুন
 
 ```
 + var1, var2
 ```
 
-* ঘোষণা লেবেল
+## ঘোষণা লেবেল
 
 `:$` [svelte](https://svelte.dev/docs#component-format-script-3-$-marks-a-statement-as-reactive) এর সাথে ব্যবহারের জন্য।
 
@@ -90,7 +90,7 @@ $ : (func = function() {
 });
 ```
 
-* দ্রুত আমদানি
+## দ্রুত আমদানি
 
 ```
 > zx/globals:
